@@ -14,6 +14,11 @@
 }
 
 @font-face {
-  font-family: "ReformaGrotesk";
+  font-family: "ReformaGrotesk69";
   src: url(../fonts/ReformaGrotesk69.otf);
+}
+
+@font-face {
+  font-family: "ReformaGrotesk49";
+  src: url(../fonts/ReformaGrotesk49.otf);
 }

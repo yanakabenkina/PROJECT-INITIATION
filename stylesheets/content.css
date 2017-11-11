@@ -1,4 +1,4 @@
-body {
+article, h1, h2, h3 {
   width: 700px;
   font-family: 'DINPro-Light';
   margin: auto;
@@ -7,18 +7,27 @@ body {
 }
 
 h1 {
-  font-family: 'ReformaGrotesk';
+  font-family: 'ReformaGrotesk69';
   font-size: 150px;
   font-variant-caps: all-small-caps;
-  margin-top: 80px;
-  margin-bottom: 70px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  line-height: 100px;
 }
 
 h2 {
+  font-family: 'ReformaGrotesk49';
+  font-size: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-decoration: underline;
+}
+
+h3 {
   font-family: 'DINPro-Medium';
   font-size: 26px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 35px;
 }
 
 p + p {
@@ -33,4 +42,41 @@ p {
 strong {
   font-family: 'DINPro';
   font-weight: bold;
+}
+
+ul {
+  font-size: 20px;
+  line-height: 34px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  list-style-type: none;
+}
+
+li {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  list-style-type: none;
+}
+
+ul {
+      list-style: none;
+      margin: 0
+    }
+ul li{
+       position: relative;
+      }
+ul li:before {
+        content:  "—";
+        position: absolute;
+        left:-26px;
+    }
+
+img {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 100%;
 }
