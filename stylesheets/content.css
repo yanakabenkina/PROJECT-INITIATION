@@ -1,6 +1,6 @@
 article, h1, h2, h3 {
   width: 700px;
-  font-family: 'DINPro-Light';
+  font-family: 'Circe';
   margin: auto;
   font-size: 20px;
   line-height: 34px;
@@ -8,26 +8,25 @@ article, h1, h2, h3 {
 
 h1 {
   font-family: 'ReformaGrotesk69';
-  font-size: 150px;
+  font-size: 130px;
   font-variant-caps: all-small-caps;
-  margin-top: 40px;
+  margin-top: 120px;
   margin-bottom: 80px;
-  line-height: 100px;
+  line-height: 92px;
 }
 
 h2 {
-  font-family: 'ReformaGrotesk49';
-  font-size: 100px;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  text-decoration: underline;
+  font-family: 'CirceBold';
+  font-size: 50px;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
 
 h3 {
-  font-family: 'DINPro-Medium';
+  font-family: 'CirceBold';
   font-size: 26px;
-  margin-top: 40px;
-  margin-bottom: 35px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 p + p {
@@ -40,8 +39,7 @@ p {
 }
 
 strong {
-  font-family: 'DINPro';
-  font-weight: bold;
+  font-family: 'CirceBold';
 }
 
 ul {
